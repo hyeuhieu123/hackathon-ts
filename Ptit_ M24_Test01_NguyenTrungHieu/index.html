@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scoreboard App</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="info">
+          <p id="player-count">Players: 0</p>
+          <p id="total-points">Total points: 0</p>
+        </div>
+        <h1>Bảng Điểm</h1>
+      </div>
+      <div class="list-player" id="players-container"></div>
+      <div class="bottom">
+        <input
+          type="text"
+          id="new-player-name"
+          placeholder="Enter player name"
+        />
+        <button id="add-player-btn">ADD PLAYER</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
