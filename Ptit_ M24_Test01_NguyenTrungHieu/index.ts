@@ -23,7 +23,7 @@ class Scoreboard {
   }
 
   private generateId(): number {
-    return Math.floor(Math.random() * 1000000); // Tạo id từ 0 đến 999999
+    return Math.floor(Math.random() * 1000000); 
   }
 
   private renderPlayers(): void {
